@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dip_30"
+    android:layout_marginRight="@dimen/dip_30"
+    android:background="@drawable/dlog_testing_time"
+    android:orientation="vertical"
+    android:padding="@dimen/dip_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dip_10"
+            android:text="Perjanjian"
+            android:textColor="#3478f6"
+            android:textSize="@dimen/fond_18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dip_10"
+            android:text="Yth Seluruh Pengguna kami, terima kasih sudah mempercayai dan menggunakan!Perjanjian Layanan Registrasi dan PrivasiFORMULIR KEANGGOTAAN KOPERASIkami memiliki kebijakan privasi yang sesuai dengan UU yang berlaku, Mohon untuk dibaca dan dipahami syarat dan ketentuan sebelum meng klik untuk menyetujui.sehingga anda dapat memahami kebijakan dan hak yang anda milik”"
+            android:textColor="#000000"
+            android:textSize="@dimen/fond_14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip_20"
+        android:layout_marginBottom="@dimen/dip_20"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Konfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_40"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dip_20"
+            android:layout_marginRight="@dimen/dip_20"
+            android:background="@drawable/bt_back1"
+            android:gravity="center"
+            android:paddingRight="@dimen/dip_10"
+            android:text="Konfirmasi"
+            android:textColor="@color/white_yellow"
+            android:textSize="@dimen/fond_19sp" />
+    </LinearLayout>
+</LinearLayout>

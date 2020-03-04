@@ -1,0 +1,25 @@
+<resources>
+    <string name="liveness_app_name">liveness</string>
+    <string name="liveness_none"></string>
+    <string name="liveness_blink">Xin vui lòng chớp mắt</string>
+    <string name="liveness_mouse">Xin vui lòng mở miệng, sau đó đóng miệng lại</string>
+    <string name="liveness_pos_raw">Vui lòng quay đầu sang phải hoặc trái (&lt;30°)</string>
+    <string name="liveness_hold_phone_vertical">Xin vui lòng giữ điện thoại thẳng đứng</string>
+    <string name="liveness_weak_light">Xin vui lòng tìm nơi có ánh sáng tốt hơn</string>
+    <string name="liveness_too_light">Xin vui lòng tìm một nơi tối hơn</string>
+    <string name="liveness_no_camera_permission">Máy ảnh chưa được bật, vui lòng bật quyền sử dụng máy ảnh</string>
+    <string name="liveness_perform">Xác định</string>
+    <string name="liveness_cancel">Huỷ bỏ</string>
+    <string name="liveness_try_again">Dùng lại</string>
+    <string name="liveness_move_face_center">Xin vui lòng di chuyển mặt của bạn đến giữa khung hình</string>
+    <string name="liveness_still">Xin vui lòng không di chuyển và bắt đầu kiểm tra</string>
+    <string name="liveness_frontal">Xin vui lòng nhìn thẳng vào màn hình</string>
+    <string name="liveness_detection_success">Nhận dạng thành công</string>
+    <string name="liveness_detection_fail">Nhận dạng thất bại，vui lòng thử lại</string>
+    <string name="liveness_time_out">Hết thời gian</string>
+    <string name="liveness_no_people_face">Hãy giữ mặt của bạn vào trong khung hình</string>
+    <string name="liveness_auth_check">Xin vui lòng đợi</string>
+    <string name="liveness_tip_move_closer">Xin vui lòng di chuyển mặt của bạn đến gần màn hình hơn</string>
+    <string name="liveness_tip_move_furthre">Xin vui lòng di chuyển mặt của bạn xa khỏi màn hình</string>
+    <string name="liveness_device_not_support">Thiết bị này không có chức năng nhận diện khuôn mặt</string>
+</resources>

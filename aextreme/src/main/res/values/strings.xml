@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">aextreme</string>
+    <string name="hint_nodata">没有数据</string>
+    <string name="back">返回</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="pull_to_refresh_top_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_top_release_label">松开刷新…</string>
+    <string name="pull_to_refresh_top_refreshing_label">正在载入…</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载更多…</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开加载更多…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_top_refreshing_label</string>
+    <string name="empty_str_loading">请稍候…</string>
+    <string name="empty_str_retry">重新加载</string>
+    <string name="empty_str_retry_hint">网络连接失败，请稍候再试！</string>
+    <string name="empty_str_retry_btn_refresh">刷新</string>
+    <string name="footer_last_hint_info">已加载全部</string>
+    <string name="confirm">确定</string>
+    <string name="refresh_release_text">松开即可刷新</string>
+    <string name="timer_send_re">重新发送</string>
+    <string name="timer_sending">发送中...</string>
+</resources>

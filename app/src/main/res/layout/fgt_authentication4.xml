@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/dip_20"
+            android:drawableLeft="@mipmap/icon_wenhao1"
+            android:drawableRight="@mipmap/icon_right"
+            android:drawablePadding="@dimen/dip_5"
+            android:gravity="center"
+            android:padding="@dimen/dip_10"
+            android:text="Butuh Bantuan"
+            android:textColor="#B1B7BF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginRight="@dimen/dip_10"
+            android:background="#20FFA406"
+            android:padding="@dimen/dip_10"
+            android:text="Data Anda hanya diqunakan untuk evaluasi kelavakan kredit Rupiah Cepat, tidak akan diberikan pada pihak lain"
+            android:textColor="#FFA406" />
+
+        <ImageView
+            android:id="@+id/idCardZhengMian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_20"
+            android:src="@mipmap/icon_fanmian" />
+
+        <ImageView
+            android:id="@+id/idCardFanMian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_20"
+            android:src="@mipmap/icon_zhengmian" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginRight="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_20"
+            android:text="Nama Anda"
+            android:textColor="#B1B7BF" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_45"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginTop="@dimen/dip_5"
+            android:layout_marginRight="@dimen/dip_10"
+            android:background="#DDE0E2"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_10"
+            android:textColor="#3D4046"
+            android:textSize="@dimen/fond_14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginRight="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_20"
+            android:text="NIK Anda"
+            android:textColor="#B1B7BF" />
+
+        <TextView
+            android:id="@+id/tv_idNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_45"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginTop="@dimen/dip_5"
+            android:layout_marginRight="@dimen/dip_10"
+            android:background="#DDE0E2"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_10"
+            android:textColor="#3D4046"
+            android:textSize="@dimen/fond_14sp" />
+
+        <TextView
+            android:id="@+id/bt_commit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_40"
+            android:layout_marginLeft="@dimen/dip_20"
+            android:layout_marginTop="@dimen/dip_40"
+            android:layout_marginRight="@dimen/dip_20"
+            android:layout_marginBottom="@dimen/dip_40"
+            android:background="@drawable/tv_background"
+            android:gravity="center"
+            android:text="BERIKUTNYA"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fond_16sp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

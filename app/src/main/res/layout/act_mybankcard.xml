@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_45"
+        android:layout_marginTop="@dimen/dip_20">
+        <ImageView
+            android:id="@+id/logon_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_20"
+            android:paddingBottom="@dimen/dip_10"
+            android:src="@mipmap/icon_blck_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/wodeyinghangka"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dip_15"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ListView
+        android:divider="#fafafa"
+        android:dividerHeight="10dp"
+        android:scrollbars="none"
+        android:layout_margin="20dp"
+        android:id="@+id/lv_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

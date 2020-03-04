@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dip_175"
+    android:layout_marginLeft="@dimen/dip_30"
+    android:layout_marginRight="@dimen/dip_30"
+    android:background="@drawable/dlog_testing_time"
+    android:orientation="vertical"
+    android:padding="@dimen/dip_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dip_10"
+            android:text="提示"
+            android:textColor="#000000"
+            android:textSize="@dimen/fond_18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dip_10"
+            android:text="请选择“延期”或者“还款”"
+            android:textColor="#000000"
+            android:textSize="@dimen/fond_14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dip_10"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/dip_110"
+            android:layout_height="@dimen/dip_40"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dip_10"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dip_10"
+            android:text="续期"
+            android:textColor="#3478f6"
+            android:textSize="@dimen/fond_19sp" />
+
+        <TextView
+            android:id="@+id/center"
+            android:layout_width="@dimen/dip_110"
+            android:layout_height="@dimen/dip_40"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:gravity="center"
+            android:paddingRight="@dimen/dip_10"
+            android:text="还款"
+            android:textColor="#3478f6"
+            android:textSize="@dimen/fond_19sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3C8DF6"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_45"
+            android:layout_marginTop="@dimen/dip_20">
+
+            <ImageView
+                android:id="@+id/logon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/dip_10"
+                android:paddingTop="@dimen/dip_10"
+                android:paddingRight="@dimen/dip_20"
+                android:paddingBottom="@dimen/dip_10"
+                android:src="@mipmap/icon_blck_back"
+                android:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dip_15"
+                android:text="Informasi Pribadi"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dip_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dip_10"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_renzhenleft" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selesaikan langkah-langkah
+di bawah ini dan dapatkan pinjaman!" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dip_10"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_renzhenright" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_160"
+            android:layout_marginTop="@dimen/dip_20"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="@dimen/dip_160"
+                android:layout_marginRight="@dimen/dip_5"
+                android:layout_weight="1"
+                android:background="@drawable/bt_renzhen_back"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_tongxunlu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/renzhen_tongxunlu"
+                    android:drawablePadding="@dimen/dip_5"
+                    android:text="Informasi Pekerjaan"
+                    android:textColor="#B1B7BF"
+                    android:textSize="@dimen/fond_13sp" />
+
+                <ImageView
+                    android:id="@+id/im_tongxunlu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:src="@mipmap/authentication_icon_certified"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_bt_tongxunlu"
+                    android:layout_width="@dimen/dip_120"
+                    android:layout_height="@dimen/dip_25"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:background="@drawable/tv_renzhen"
+                    android:gravity="center"
+                    android:text="LENGKAPI"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fond_12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="@dimen/dip_160"
+                android:layout_marginLeft="@dimen/dip_5"
+                android:layout_weight="1"
+                android:background="@drawable/bt_renzhen_back"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_jingjilianxiren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/renzhen_jingjilianxiren"
+                    android:drawablePadding="@dimen/dip_5"
+                    android:text="Kontak Darurat"
+                    android:textColor="#B1B7BF"
+                    android:textSize="@dimen/fond_13sp" />
+
+                <ImageView
+                    android:id="@+id/im_jingjilianxiren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:src="@mipmap/authentication_icon_certified"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_bt_jingjilianxiren"
+                    android:layout_width="@dimen/dip_120"
+                    android:layout_height="@dimen/dip_25"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:background="@drawable/tv_renzhen"
+                    android:gravity="center"
+                    android:text="LENGKAPI"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fond_12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_160"
+            android:layout_marginTop="@dimen/dip_10"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="@dimen/dip_160"
+                android:layout_marginRight="@dimen/dip_5"
+                android:layout_weight="1"
+                android:background="@drawable/bt_renzhen_back"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_qitaxingxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/renzhen_qitaxingxi"
+                    android:drawablePadding="@dimen/dip_5"
+                    android:text="Informasi Tambahan"
+                    android:textColor="#B1B7BF"
+                    android:textSize="@dimen/fond_13sp" />
+
+                <ImageView
+                    android:id="@+id/im_qitaxingxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:src="@mipmap/authentication_icon_certified"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_bt_qitaxingxi"
+                    android:layout_width="@dimen/dip_120"
+                    android:layout_height="@dimen/dip_25"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:background="@drawable/tv_renzhen"
+                    android:gravity="center"
+                    android:text="LENGKAPI"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fond_12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="@dimen/dip_160"
+                android:layout_marginLeft="@dimen/dip_5"
+                android:layout_weight="1"
+                android:background="@drawable/bt_renzhen_back"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_shenfenxingxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/renzhen_shengfenxingxi"
+                    android:drawablePadding="@dimen/dip_5"
+                    android:text="Kontak Darurat"
+                    android:textColor="#B1B7BF"
+                    android:textSize="@dimen/fond_13sp" />
+
+                <ImageView
+                    android:id="@+id/im_shenfenxingxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:src="@mipmap/authentication_icon_certified"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_bt_shenfenxingxi"
+                    android:layout_width="@dimen/dip_120"
+                    android:layout_height="@dimen/dip_25"
+                    android:layout_marginTop="@dimen/dip_15"
+                    android:background="@drawable/tv_renzhen"
+                    android:gravity="center"
+                    android:text="LENGKAPI"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fond_12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bt_tvtv"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="@dimen/dip_40"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_allshap"
+        android:gravity="center"
+        android:text="Mulai pinjam"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:visibility="visible" />
+</LinearLayout>

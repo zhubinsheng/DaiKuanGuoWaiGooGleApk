@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F9FB"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Pendidikan Terakhir"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Status Pernikahan"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Jumlah Anak"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Nama Bank/Nama Dompet"
+                android:textColor="#B1B7BF" />
+
+            <TextView
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                android:background="#DDE0E2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Nomor Rekening Bank"
+                android:textColor="#B1B7BF" />
+
+
+            <EditText
+                android:id="@+id/et_inputBanck"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                android:background="#DDE0E2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Konfirmasi Nomor Rekening Bank"
+                android:textColor="#B1B7BF" />
+
+            <EditText
+                android:id="@+id/et_inputBanck1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                android:background="#DDE0E2" />
+
+            <TextView
+                android:id="@+id/tv_commit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_40"
+                android:layout_marginLeft="@dimen/dip_20"
+                android:layout_marginTop="@dimen/dip_40"
+                android:layout_marginRight="@dimen/dip_20"
+                android:layout_marginBottom="@dimen/dip_40"
+                android:background="@drawable/tv_background"
+                android:gravity="center"
+                android:text="Selanjutnya"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fond_16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

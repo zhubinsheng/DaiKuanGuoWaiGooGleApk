@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F9FB"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Jenis Pekerjaan"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Jumlah Penghasilan per Bulan"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dip_10"
+                    android:text="Lama Masa Bekerja"
+                    android:textColor="#B1B7BF" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_45"
+                    android:layout_marginTop="@dimen/dip_5"
+                    app:ms_background_color="#DDE0E2"
+                    app:ms_dropdown_height="wrap_content"
+                    app:ms_dropdown_max_height="350dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dip_10"
+                    android:text="Nama Perusahaan"
+                    android:textColor="#B1B7BF" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_45"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:background="#DDE0E2"
+                    android:maxLength="11"
+                    android:paddingLeft="@dimen/dip_10"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dip_10"
+                    android:text="Kota Perusahaan"
+                    android:textColor="#B1B7BF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_45"
+                    android:background="#DDE0E2"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/tv_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dip_45"
+                        android:layout_marginTop="@dimen/dip_5"
+                        android:layout_weight="111"
+                        android:background="#DDE0E2"
+                        android:textSize="@dimen/fond_13sp"
+                        android:drawablePadding="@dimen/dip_5"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        app:ms_dropdown_height="wrap_content"
+                        app:ms_dropdown_max_height="350dp" />
+
+                    <ImageView
+                        android:id="@+id/im_addr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/dip_10"
+                        android:src="@mipmap/loc" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dip_10"
+                    android:text="Tanggal Penerimaan Gaji"
+                    android:textColor="#B1B7BF" />
+
+                <EditText
+                    android:id="@+id/et_income_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_45"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:background="#DDE0E2"
+                    android:paddingLeft="@dimen/dip_10"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dip_10"
+                    android:text="Nomor Telepon Perusahaan"
+                    android:textColor="#B1B7BF" />
+
+                <EditText
+                    android:id="@+id/et_telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_45"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:background="#DDE0E2"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:paddingLeft="@dimen/dip_10"
+                    android:textColor="#000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_commit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_40"
+            android:layout_marginLeft="@dimen/dip_20"
+            android:layout_marginTop="@dimen/dip_40"
+            android:layout_marginRight="@dimen/dip_20"
+            android:layout_marginBottom="@dimen/dip_40"
+            android:background="@drawable/tv_background"
+            android:gravity="center"
+            android:text="Selanjutnya"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fond_16sp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

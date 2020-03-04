@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dip_10">
+
+    <TextView
+        android:id="@+id/information_paizhao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_5"
+        android:layout_marginRight="@dimen/dip_5"
+        android:background="@drawable/shapbuttom"
+        android:gravity="center_horizontal"
+        android:text="拍照"
+        android:textColor="#5c90f5"
+        android:textSize="@dimen/fond_16sp" />
+
+    <TextView
+        android:id="@+id/information_xiangce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_5"
+        android:layout_marginRight="@dimen/dip_5"
+        android:layout_marginTop="0.1dip"
+        android:background="@drawable/shap_top"
+        android:gravity="center_horizontal"
+        android:text="从手机相册选择"
+        android:textColor="#5c90f5"
+        android:textSize="@dimen/fond_16sp" />
+
+    <TextView
+        android:id="@+id/share_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dip_5"
+        android:background="@drawable/shap"
+        android:gravity="center_horizontal"
+        android:text="取消"
+        android:textColor="#5c90f5"
+        android:textSize="@dimen/fond_16sp" />
+</LinearLayout>

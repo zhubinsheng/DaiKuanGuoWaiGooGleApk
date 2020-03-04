@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="liveness_transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#5BC413</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+    </style>
+
+    <style name="liveness_greenBtn">
+        <item name="android:background">@drawable/liveness_shape_gradient_green</item>
+        <item name="android:layout_height">@dimen/liveness_36</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/liveness_color_light</item>
+        <item name="android:textSize">@dimen/liveness_text_28</item>
+    </style>
+
+    <style name="liveness_preview" parent="liveness_horizontal_center">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">"H,1:1"</item>
+        <item name="layout_constraintWidth_percent">0.8</item>
+    </style>
+
+    <style name="liveness_horizontal_center">
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+</resources>

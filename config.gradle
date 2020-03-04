@@ -1,0 +1,7 @@
+ext {
+    appConfig = [
+            applicationId    : "om.different.daikuanguowai",//此处填写您申请 key 对应的 applicationId
+            livenessAccessKey: '"0560f67a6138217b"',//此处填写发送给您的 accessKey
+            livenessSecretKey: '"f49f7591e0a4a6bb"'//此处填写发送给您的 secretKey
+    ]
+}

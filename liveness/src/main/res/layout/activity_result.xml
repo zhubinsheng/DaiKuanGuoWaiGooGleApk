@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view_activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liveness_camera_bg"
+    android:orientation="vertical"
+    tools:ignore="ResourceName">
+
+    <ImageView
+        android:id="@+id/detection_result_image_view"
+        android:layout_width="@dimen/liveness_160"
+        android:layout_height="@dimen/liveness_160"
+        android:layout_above="@+id/detection_result_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/liveness_25"
+        android:src="@drawable/icon_liveness_success" />
+
+    <TextView
+        android:id="@+id/detection_result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/liveness_accent_reverse"
+        android:textSize="@dimen/liveness_text_32" />
+
+    <TextView
+        android:id="@+id/detection_tip_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detection_result_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/liveness_10"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"
+        android:paddingLeft="@dimen/liveness_15"
+
+        android:paddingRight="@dimen/liveness_15"
+        android:textColor="@color/liveness_primary_hint_text_color"
+        android:textSize="@dimen/liveness_text_28" />
+
+    <TextView
+        android:id="@+id/try_again_view"
+        style="@style/liveness_greenBtn"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/detection_tip_text_view"
+        android:layout_marginLeft="@dimen/liveness_48"
+        android:layout_marginTop="@dimen/liveness_90"
+        android:layout_marginRight="@dimen/liveness_48"
+        android:text="@string/liveness_try_again" />
+
+</RelativeLayout>

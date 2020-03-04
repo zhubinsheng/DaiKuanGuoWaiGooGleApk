@@ -1,0 +1,25 @@
+<resources>
+    <string name="liveness_app_name">liveness</string>
+    <string name="liveness_none"></string>
+    <string name="liveness_blink">Silakan berkedip</string>
+    <string name="liveness_mouse">Mohon buka dan tutup mulut Anda</string>
+    <string name="liveness_pos_raw">Silakan tengok kiri atau kanan (&lt;30 derajat)</string>
+    <string name="liveness_hold_phone_vertical">Mohon pegang telepon dengan tegak</string>
+    <string name="liveness_weak_light">Mohon temukan tempat yang lebih terang</string>
+    <string name="liveness_too_light">Mohon temukan tempat yang lebih gelap</string>
+    <string name="liveness_no_camera_permission">Kamera tidak dinyalakan, silakan aktifkan izin menyalakan kamera</string>
+    <string name="liveness_perform">Oke</string>
+    <string name="liveness_cancel">Batalkan</string>
+    <string name="liveness_try_again">Pakai Lagi</string>
+    <string name="liveness_detection_success">Deteksi liveness sukses</string>
+    <string name="liveness_detection_fail">Deteksi Liveness gagal, silakan coba lagi</string>
+    <string name="liveness_time_out">Waktu habis</string>
+    <string name="liveness_move_face_center">Sesuaikan wajah Anda ke tengah bingkai yang tersedia</string>
+    <string name="liveness_still">Jangan bergerak dan mulai pengecekan</string>
+    <string name="liveness_frontal">Mohon lihat lurus ke layar</string>
+    <string name="liveness_no_people_face">Silakan masukkan wajah Anda dalam bingkai</string>
+    <string name="liveness_auth_check">Mohon Tunggu</string>
+    <string name="liveness_tip_move_closer">Silakan dekatkan wajah Anda ke layar</string>
+    <string name="liveness_tip_move_furthre">Silakan gerakkan wajah Anda lebih jauh dari layar</string>
+    <string name="liveness_device_not_support">Perangkat tidak mendukung pendeteksi citra wajah</string>
+</resources>

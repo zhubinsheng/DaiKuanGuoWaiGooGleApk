@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape>
+        <!-- 渐变 -->
+            <solid android:color="@color/white"/>
+        <!--<gradient-->
+            <!--android:startColor="@color/title_start"-->
+            <!--android:endColor="@color/white"-->
+            <!--android:angle="270" />-->
+            <!-- 圆角 -->
+            <corners
+                android:radius="@dimen/dip_20" />
+        </shape>
+    </item>
+</selector>

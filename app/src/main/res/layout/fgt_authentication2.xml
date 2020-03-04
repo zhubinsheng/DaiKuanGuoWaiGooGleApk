@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dip_20">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#20FFA406"
+                android:padding="@dimen/dip_10"
+                android:text="Informasi ini hanya digunakan oleh tim verifikasi dan tidak akan dihubungi. Mohon tuliskan Nomor Kontak Darurat yang Benar dan Aktif (Salah satu keluarga)!"
+                android:textColor="#FFA406" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Hubungan"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_20"
+                android:text="Hubungan"
+                android:textColor="#B1B7BF" />
+
+            <TextView
+                android:id="@+id/tv_EmergencyContact1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                android:gravity="center_vertical"
+                android:background="#DDE0E2"
+                android:drawableRight="@mipmap/legalize_icon_address_book"
+                android:paddingLeft="@dimen/dip_10"
+                android:paddingRight="@dimen/dip_10"
+                android:textColor="#000"
+                android:textSize="@dimen/fond_14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Hubungan"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_20"
+                android:text="Kontak Darurat2"
+                android:textColor="#B1B7BF" />
+
+
+            <TextView
+                android:id="@+id/tv_EmergencyContact2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                android:gravity="center_vertical"
+                android:background="#DDE0E2"
+                android:drawableRight="@mipmap/legalize_icon_address_book"
+                android:paddingLeft="@dimen/dip_10"
+                android:paddingRight="@dimen/dip_10"
+                android:textColor="#000"
+                android:textSize="@dimen/fond_14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_10"
+                android:paddingLeft="@dimen/dip_5"
+                android:paddingRight="@dimen/dip_5"
+                android:text="*Opsional!: Isi kontak darurat 3 agar proses verifikasi pinjaman melalui telepon lebih cepat"
+                android:textColor="#FFA406"
+                android:textSize="@dimen/fond_13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_10"
+                android:text="Hubungan"
+                android:textColor="#B1B7BF" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                app:ms_background_color="#DDE0E2"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_dropdown_max_height="350dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dip_20"
+                android:text="Kontak Darurat3"
+                android:textColor="#B1B7BF" />
+
+
+            <TextView
+                android:id="@+id/tv_EmergencyContact3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_45"
+                android:layout_marginTop="@dimen/dip_5"
+                android:gravity="center_vertical"
+                android:background="#DDE0E2"
+                android:drawableRight="@mipmap/legalize_icon_address_book"
+                android:paddingLeft="@dimen/dip_10"
+                android:paddingRight="@dimen/dip_10"
+                android:textColor="#000"
+                android:textSize="@dimen/fond_14sp" />
+
+            <TextView
+                android:id="@+id/commit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_40"
+                android:layout_marginTop="@dimen/dip_40"
+                android:layout_marginBottom="@dimen/dip_40"
+                android:background="@drawable/tv_background"
+                android:gravity="center"
+                android:text="Selanjutnya"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fond_16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

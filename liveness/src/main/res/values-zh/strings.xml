@@ -1,0 +1,26 @@
+<resources>
+    <string name="liveness_app_name">liveness</string>
+    <string name="liveness_none"></string>
+    <string name="liveness_blink">请眨眼</string>
+    <string name="liveness_mouse">请张嘴，然后合拢</string>
+    <string name="liveness_pos_raw">请左右缓慢摇头（&lt;30°）</string>
+    <string name="liveness_hold_phone_vertical">请竖直手机</string>
+    <string name="liveness_weak_light">请让光线再亮点</string>
+    <string name="liveness_too_light">请让光线再暗点</string>
+    <string name="liveness_no_camera_permission">未开启摄像头，请开启相机权限</string>
+    <string name="liveness_perform">确定</string>
+    <string name="liveness_cancel">取消</string>
+    <string name="liveness_try_again">再试一次</string>
+    <string name="liveness_move_face_center">请把脸移到人脸框中央</string>
+    <string name="liveness_still">请保持静止，然后开始检测</string>
+    <string name="liveness_frontal">请把脸正对屏幕</string>
+    <string name="liveness_detection_success">活体检测成功</string>
+    <string name="liveness_detection_fail">活体检测失败，请重试</string>
+    <string name="liveness_time_out">超时</string>
+    <string name="liveness_no_people_face">请将人脸放在人像框内</string>
+    <string name="liveness_auth_check">请稍候</string>
+    <string name="liveness_tip_move_closer">请把脸再靠近屏幕一些</string>
+    <string name="liveness_tip_move_furthre">请把脸再远离屏幕一些</string>
+    <string name="liveness_device_not_support">该设备不支持活体检测</string>
+
+</resources>

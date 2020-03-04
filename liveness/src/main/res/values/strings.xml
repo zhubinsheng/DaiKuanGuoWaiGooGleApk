@@ -1,0 +1,25 @@
+<resources>
+    <string name="liveness_app_name">liveness</string>
+    <string name="liveness_none"></string>
+    <string name="liveness_blink">Please blink</string>
+    <string name="liveness_mouse">Please open your mouth and then close</string>
+    <string name="liveness_pos_raw">Please turn head left or right (&lt;30 degrees)</string><!--yaw摇头-->
+    <string name="liveness_hold_phone_vertical">Please hold the phone upright </string>
+    <string name="liveness_weak_light">Find a brighter place</string>
+    <string name="liveness_too_light">Find a darker place</string>
+    <string name="liveness_no_camera_permission">Camera is not turned on, please turn on camera permissions</string>
+    <string name="liveness_perform">Yes</string>
+    <string name="liveness_cancel">Cancel</string>
+    <string name="liveness_try_again">Use again</string>
+    <string name="liveness_detection_success">Liveness detection succeed</string>
+    <string name="liveness_move_face_center">Please move your face to the center of the face frame</string>
+    <string name="liveness_still">Please stay still and start testing</string>
+    <string name="liveness_frontal">Please look straight at the screen</string>
+    <string name="liveness_detection_fail">Liveness detection failed, please try again</string>
+    <string name="liveness_time_out">Time out</string>
+    <string name="liveness_no_people_face">Please put your face into the frame</string>
+    <string name="liveness_auth_check">Please Wait</string>
+    <string name="liveness_tip_move_closer">Please move your face closer to the screen</string>
+    <string name="liveness_tip_move_furthre">Please move your face further away from the screen</string>
+    <string name="liveness_device_not_support">The device does not support liveness detection</string>
+</resources>

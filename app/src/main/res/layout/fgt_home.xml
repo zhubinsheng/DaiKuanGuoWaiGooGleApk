@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_160"
+                android:background="#607FFC">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_40"
+                android:layout_marginTop="@dimen/dip_25"
+                android:background="#40000000">
+
+                <ImageView
+                    android:layout_width="@dimen/dip_15"
+                    android:layout_height="@dimen/dip_15"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dip_10"
+                    android:src="@mipmap/home_icon_carousel" />
+
+                <com.chaojidaikuan.daikuanguowai.ui.view.ScrollTextViewView
+                    android:id="@+id/tv_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dip_10"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_150"
+                android:layout_marginLeft="@dimen/dip_10"
+                android:layout_marginTop="@dimen/dip_70"
+                android:layout_marginRight="@dimen/dip_10" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginTop="@dimen/dip_10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/home_icon_gold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dip_5"
+                android:text="Jumlah Pinjaman"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dip_20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RP"
+                    android:textColor="#3D4046"
+                    android:textSize="@dimen/fond_18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_Amount_limit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3D4046"
+                    android:textSize="@dimen/fond_25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_20"
+            android:layout_marginTop="@dimen/dip_20"
+            android:layout_marginRight="@dimen/dip_20"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@mipmap/home_icon_reduce" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:max="100"
+                android:maxHeight="@dimen/dip_40"
+                android:min="0"
+                android:progress="0"
+                android:thumb="@drawable/home_icon_slider"
+                android:transformPivotX="@dimen/dip_10" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@mipmap/home_icon_add" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_50"
+            android:layout_marginRight="@dimen/dip_50">
+
+            <TextView
+                android:id="@+id/tv_Min_Amount_limit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="@dimen/fond_12sp" />
+
+            <TextView
+                android:id="@+id/tv_Max_Amount_limit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="5000.000"
+                android:textSize="@dimen/fond_12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_20"
+            android:layout_marginTop="@dimen/dip_20"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/home_icon_time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/dip_5"
+                android:text="Jangka Waktu Pinjaman"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_16sp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_20"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dip_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biaya Admin"
+                    android:textColor="#737982"
+                    android:textSize="@dimen/fond_12sp" />
+                <TextView
+                    android:id="@+id/service_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#3D4046"
+                    android:textSize="@dimen/fond_12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dip_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bunga"
+                    android:textColor="#737982"
+                    android:textSize="@dimen/fond_12sp" />
+
+                <TextView
+                    android:id="@+id/month_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#3D4046"
+                    android:textSize="@dimen/fond_12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dip_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Pengembalian"
+                    android:textColor="#737982"
+                    android:textSize="@dimen/fond_12sp" />
+
+                <TextView
+                    android:id="@+id/huankuanjine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Rp.1.000.000"
+                    android:textColor="#3D4046"
+                    android:textSize="@dimen/fond_12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dip_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aktual"
+                    android:textColor="#737982"
+                    android:textSize="@dimen/fond_12sp" />
+
+                <TextView
+                    android:id="@+id/daozhangjine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Rp"
+                    android:textColor="#3D4046"
+                    android:textSize="@dimen/fond_12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="@dimen/dip_20"
+            android:paddingRight="@dimen/dip_10"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="tips: Biaya layanan akan dipotong langsung dari dana pinjaman"
+            android:textColor="#B1B7BF"
+            android:textSize="@dimen/fond_12sp" />
+        <TextView
+            android:id="@+id/home_btCommit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_40"
+            android:layout_marginLeft="@dimen/dip_40"
+            android:layout_marginTop="@dimen/dip_20"
+            android:layout_marginRight="@dimen/dip_40"
+            android:layout_marginBottom="@dimen/dip_20"
+            android:background="@drawable/home_bt_bg"
+            android:gravity="center"
+            android:text="Ajukan segera"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

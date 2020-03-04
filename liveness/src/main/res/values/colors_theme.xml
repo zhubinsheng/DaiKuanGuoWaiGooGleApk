@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--黑色-->
+    <color name="liveness_color_dark">#000000</color>
+    <!--白色-->
+    <color name="liveness_color_light">#ffffff</color>
+
+    <!--本色值会影响到预览背景色-->
+    <color name="liveness_accent">#ffffff</color>
+    <!--本色值会影响到文字颜色-->
+    <color name="liveness_accent_reverse">#000000</color>
+    <color name="liveness_back_view_color">#666666</color>
+</resources>

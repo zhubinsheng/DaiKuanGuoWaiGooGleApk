@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--张嘴动画-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:oneshot="false"
+    tools:ignore="ResourceName">
+    <item
+        android:drawable="@drawable/open_mouse_1"
+        android:duration="1600" />
+    <item
+        android:drawable="@drawable/open_mouse_2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/open_mouse_3"
+        android:duration="1200" />
+    <item
+        android:drawable="@drawable/open_mouse_4"
+        android:duration="200" />
+
+</animation-list>

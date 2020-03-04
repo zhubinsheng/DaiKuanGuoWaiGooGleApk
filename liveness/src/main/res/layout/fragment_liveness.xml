@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liveness_accent"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints,ResourceName">
+    <!--titleBar-->
+
+    <ImageView
+        android:id="@+id/back_view_camera_activity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintWidth_percent="0.17"
+        app:srcCompat="@drawable/liveness_ic_icon_md_arrow_back" />
+
+    <TextView
+        android:id="@+id/timer_text_view_camera_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="50dp"
+        android:paddingLeft="@dimen/liveness_12"
+        android:paddingTop="@dimen/liveness_2"
+        android:paddingRight="@dimen/liveness_12"
+        android:paddingBottom="@dimen/liveness_2"
+        android:textColor="@color/liveness_accent_reverse"
+        android:textSize="@dimen/liveness_text_28"
+        app:layout_constraintBottom_toBottomOf="@+id/back_view_camera_activity"
+        app:layout_constraintRight_toLeftOf="@+id/right_guide_line"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back_view_camera_activity" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/right_guide_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <CheckBox
+        android:id="@+id/voice_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/liveness_25"
+        android:button="@drawable/liveness_selector_voice"
+        android:padding="@dimen/liveness_5"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/liveness_view"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_view_camera_activity" />
+
+    <ai.advance.liveness.lib.LivenessView
+        android:id="@+id/liveness_view"
+        style="@style/liveness_preview"
+        app:layout_constraintBottom_toTopOf="@+id/tip_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/back_view_camera_activity"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/mask_view"
+        style="@style/liveness_preview"
+        app:layout_constraintBottom_toBottomOf="@+id/liveness_view"
+        app:layout_constraintTop_toTopOf="@+id/liveness_view"
+        app:srcCompat="@drawable/liveness_ic_mask" />
+
+    <TextView
+        android:id="@+id/tip_text_view"
+        style="@style/liveness_horizontal_center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/liveness_accent"
+        android:gravity="center"
+        android:textColor="@color/liveness_accent_reverse"
+        android:textSize="@dimen/liveness_text_36"
+        app:layout_constraintBottom_toTopOf="@+id/tip_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/mask_view"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <ImageView
+        android:id="@+id/tip_image_view"
+        style="@style/liveness_horizontal_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintTop_toBottomOf="@+id/tip_text_view"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <ProgressBar
+        android:id="@+id/progress_layout"
+        style="@style/liveness_horizontal_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintTop_toBottomOf="@+id/back_view_camera_activity"
+        app:layout_constraintWidth_percent="0.15" />
+</android.support.constraint.ConstraintLayout>

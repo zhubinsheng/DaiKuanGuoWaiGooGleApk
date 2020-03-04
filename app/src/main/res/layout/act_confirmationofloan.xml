@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F9FB"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3C8DF6"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_45"
+            android:layout_marginTop="@dimen/dip_20">
+
+            <ImageView
+                android:id="@+id/logon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/dip_10"
+                android:paddingTop="@dimen/dip_10"
+                android:paddingRight="@dimen/dip_20"
+                android:paddingBottom="@dimen/dip_10"
+                android:src="@mipmap/icon_blck_back"
+                android:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dip_15"
+                android:text="iSaku"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dip_10"
+        android:background="@drawable/tv_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dip_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/home_icon_gold"
+            android:drawablePadding="@dimen/dip_5"
+            android:text="Silakan pilih jumlahnya"
+            android:textColor="#3D4046"
+            android:textSize="@dimen/fond_14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/dip_5"
+                android:background="@mipmap/loan_icon_input" />
+
+            <TextView
+                android:id="@+id/tv_damount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dip_5"
+                android:drawablePadding="@dimen/dip_5"
+                android:text="0.00"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_30sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_1"
+            android:layout_marginTop="@dimen/dip_5"
+            android:background="#DDE0E2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10"
+            android:drawableLeft="@mipmap/home_icon_gold"
+            android:drawablePadding="@dimen/dip_5"
+            android:text="Silakan pilih jangka waktu pinjaman"
+            android:textColor="#3D4046"
+            android:textSize="@dimen/fond_14sp" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/dip_110"
+            android:layout_height="@dimen/dip_40"
+            android:layout_marginTop="@dimen/dip_10">
+
+            <TextView
+                android:id="@+id/tv_days"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/day_boder"
+                android:gravity="center"
+                android:text="0Hari "
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/item_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/home_icon_selected" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dip_10"
+        android:background="@drawable/tv_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dip_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/home_icon_gold"
+            android:drawablePadding="@dimen/dip_5"
+            android:text="Perhitungan"
+            android:textColor="#3D4046"
+            android:textSize="@dimen/fond_14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah piniaman"
+                android:textColor="#737982"
+                android:textSize="@dimen/fond_12sp" />
+
+            <TextView
+                android:id="@+id/tv_daozhang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Rp 0.000"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah pembayaran"
+                android:textColor="#737982"
+                android:textSize="@dimen/fond_12sp" />
+
+            <TextView
+                android:id="@+id/tv_damount1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Rp 0.000"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biaya layanan"
+                android:textColor="#737982"
+                android:textSize="@dimen/fond_12sp" />
+
+            <TextView
+                android:id="@+id/tv_service_fee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Rp 0.000"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bunga"
+                android:textColor="#737982"
+                android:textSize="@dimen/fond_12sp" />
+
+            <TextView
+                android:id="@+id/tv_interest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Rp 0.000"
+                android:textColor="#3D4046"
+                android:textSize="@dimen/fond_13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dip_10">
+
+        <TextView
+            android:id="@+id/xieyiRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/home_radio"
+            android:drawablePadding="@dimen/dip_5"
+            android:text="Saya telah membaca dan   setuju"
+            android:textColor="#9DA4B7"
+            android:textSize="@dimen/fond_10sp" />
+
+        <TextView
+            android:id="@+id/userXieyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《Perjanjian Pinjaman》"
+            android:textColor="@color/title"
+            android:textSize="@dimen/fond_10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_btCommit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_40"
+        android:layout_marginLeft="@dimen/dip_40"
+        android:layout_marginTop="@dimen/dip_20"
+        android:layout_marginRight="@dimen/dip_40"
+        android:layout_marginBottom="@dimen/dip_20"
+        android:background="@drawable/home_bt_bg"
+        android:gravity="center"
+        android:text="Pinjam uang"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@mipmap/icon_tel"
+        android:drawablePadding="@dimen/dip_5"
+        android:text="123456789210"
+        android:textColor="#B1B7BF"
+        android:visibility="gone" />
+</LinearLayout>

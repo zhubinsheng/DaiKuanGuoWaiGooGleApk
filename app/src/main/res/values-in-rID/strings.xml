@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Go cash</string>
+    <string name="logon_quzhuce">MasukUntukMendaftar</string>
+    <string name="logon_Masuk">Masuk</string>
+    <string name="lg_tv_yz">huoquyanzhengma</string>
+    <string name="BERANDA">Halaman Utama</string>
+    <string name="saya">saya</string>
+    <string name="yanzhengmadenglu" >Masuk dengan OTP</string>
+    <string name="mimadenglv" >password masuk</string>
+    <string name="huoquyanzhengma" >Kirim Kode OTP</string>
+    <string name="hinshoujihao" >Masukkan Nomor HP</string>
+    <string name="shuruyanzhengma" >Masukkan Kode OTP</string>
+    <string name="shurumima" >Masukkan Kata Sandi</string>
+    <string name="zhucezhanghao" >Daftar Akun</string>
+    <string name="wangjimima" >Lupa kata sandi</string>
+    <string name="denglv" >Masuk</string>
+    <string name="zhuceanniu" >pendaftaran</string>
+    <string name="zhucezhanghaoyemian">Daftar</string>
+    <string name="fanhui"  >kembali</string>
+    <string name="querenxiugai"  >Konfirm Ubah </string>
+    <string name="gerenzhongxin" >Pusat Pribadi</string>
+    <string name="wodezhangdan" >Akun Saya</string>
+    <string name="wodeyinghangka" >Kartu Bank Saya</string>
+    <string name="woderenzheng" >Sertifikasi Saya</string>
+    <string name="lianxikehu" >Hubungi CS</string>
+    <string name="guanyuwomen" >Tentang Kami</string>
+    <string name="xiugaimima">Ubah Password</string>
+    <string name="tuichudenglv" >Keluar</string>
+    <string name="querenmima">Konfirmasi Sandi</string>
+</resources>

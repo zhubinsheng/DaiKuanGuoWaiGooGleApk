@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="liveness_failed_reason_timeout">หมดเวลากรุณาทำตามคำแนะนำ</string>
+    <string name="liveness_failed_reason_facemissing_blink_mouth">ไม่พบการตรวจจับใบหน้ากรุณาหลีกเลี่ยงการขยับไปมาและหาพื้นที่ที่มีแสงสว่างมากขึ้น</string>
+    <string name="liveness_failed_reason_facemissing_pos_yaw">ไม่พบการตรวจจับใบหน้ากรุณาหลีกเลี่ยงการขยับไปมาแลเขย่าหัว(>45องศา)</string>
+    <string name="liveness_failed_reason_multipleface">หลากหลายใบหน้าได้ถูกตรวจจับ</string>
+    <string name="liveness_failed_reason_muchaction">หลากหลายท่าทางได้ถูกตรวจจับ</string>
+    <string name="liveness_failed_reason_auth_failed">การอนุญาติล้มเหลวกรุณาตรวจสอบเครือข่าย</string>
+    <string name="liveness_failed_reason_bad_network">กรุณาตรวจสอบเครือข่าย</string>
+</resources>

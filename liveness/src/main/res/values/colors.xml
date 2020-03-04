@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="liveness_transparent">#00000000</color>
+    <color name="liveness_camera_bg">#B8000000</color>
+    <color name="liveness_camera_bg_light">#B8ffffff</color>
+    <color name="liveness_shadow_color">#47000000</color>
+    <color name="liveness_accent_color">#cc4285f4</color>
+    <color name="liveness_toast_text_color">#000000</color>
+    <color name="liveness_toast_bg_color">#ffffff</color>
+    <color name="liveness_login_bg">#000000</color>
+    <color name="liveness_primary_text_color">#5CC414</color>
+    <color name="liveness_primary_btn_bg_color">#5BC413</color>
+    <color name="liveness_primary_hint_text_color">#999999</color>
+    <color name="liveness_primary_black_text_color">#ffffff</color>
+    <color name="liveness_primary_input_line_color">#EEEEEE</color>
+    <color name="liveness_desc_copyright_text_color">#999999</color>
+    <color name="liveness_ripple_color">#cc000000</color>
+    <color name="liveness_dialog_content_text_color">#2C2E38</color>
+    <color name="liveness_dialog_perform_text_color">#5981FF</color>
+    <color name="liveness_shadow_start_color">#5BC414</color>
+    <color name="liveness_shadow_end_color">#0FA80B</color>
+    <color name="liveness_color_gray">#666666</color>
+    <color name="liveness_tip_text_color">#666666</color>
+
+</resources>

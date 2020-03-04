@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape>
+        <!-- 渐变 -->
+        <gradient
+            android:startColor="@color/title_start"
+            android:endColor="@color/title_bar"
+            android:angle="270" />
+            <!-- 圆角 -->
+            <corners
+                android:radius="@dimen/dip_20" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <!-- 渐变 -->
+            <gradient
+                android:startColor="#c4c4c5"
+                android:endColor="#8a929d"
+                android:angle="360" />
+            <!-- 圆角 -->
+            <corners
+                android:radius="@dimen/dip_20" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dip_335"
+    android:layout_marginLeft="@dimen/dip_40"
+    android:layout_marginRight="@dimen/dip_40"
+    android:background="@drawable/eixt_back"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dip_20"
+        android:src="@mipmap/pop_legalize_illustration" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_30"
+        android:layout_marginTop="@dimen/dip_20"
+        android:layout_marginRight="@dimen/dip_30"
+        android:text="Uang tunai akan langsung cair ke alam rekening Anda, yakin tidak mau?"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/jixu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_40"
+        android:layout_marginLeft="@dimen/dip_30"
+        android:layout_marginTop="@dimen/dip_25"
+        android:layout_marginRight="@dimen/dip_30"
+        android:background="@drawable/eixt_bt_back"
+        android:gravity="center"
+        android:text="Lanjutkan"
+        android:textColor="#3C8DF6"
+        android:textSize="@dimen/fond_14sp" />
+
+    <TextView
+        android:id="@+id/fangqi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_40"
+        android:layout_marginLeft="@dimen/dip_30"
+        android:layout_marginTop="@dimen/dip_10"
+        android:layout_marginRight="@dimen/dip_30"
+        android:background="@drawable/eixt_back"
+        android:gravity="center"
+        android:text="Tidak Butuh Uang Tunai"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fond_12sp" />
+</LinearLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_65"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/tv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dip_5"
+            android:padding="@dimen/dip_10"
+            android:src="@mipmap/icon_blck_back"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="@dimen/dip_15"
+            android:text="登录"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/yimiaofenqi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/dip_30"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rl_dongtai"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dip_20"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_change_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/yanzhengmadenglu"
+                    android:textColor="@drawable/fond_selecte1" />
+
+                <TextView
+                    android:id="@+id/tv_change_line"
+                    android:layout_width="@dimen/dip_30"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:background="@color/all" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rl_mima"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dip_20"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mimadenglv"
+                    android:textColor="@drawable/fond_selecte1" />
+
+                <TextView
+                    android:id="@+id/tv_line"
+                    android:layout_width="@dimen/dip_30"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:background="@color/all" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dip_60"
+            android:layout_height="match_parent"
+            android:background="@drawable/et_login_bg2"
+            android:gravity="center"
+            android:text="+62"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fond_14sp" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/et_login_bg1"
+            android:drawablePadding="10dp"
+            android:hint="@string/hinshoujihao"
+            android:inputType="number"
+            android:maxLength="13"
+            android:padding="10dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_login_bg"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_validatecode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:hint="@string/shuruyanzhengma"
+            android:inputType="number"
+            android:paddingLeft="@dimen/dip_20"
+            android:textSize="14sp" />
+
+        <com.chaojidaikuan.daikuanguowai.ui.view.MyTimerText
+            android:id="@+id/btn_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/huoquyanzhengma"
+            android:textColor="@color/title" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_login_bg"
+        android:drawablePadding="10dp"
+        android:hint="@string/shurumima"
+        android:inputType="textPassword"
+        android:maxLines="16"
+        android:paddingLeft="@dimen/dip_20"
+        android:singleLine="true"
+        android:textColorHint="#9DA4B7"
+        android:textSize="@dimen/fond_14sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_duanxin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/tv_registe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zhucezhanghao"
+            android:textColor="#9DA4B7"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/wangjimima"
+            android:textColor="#9DA4B7"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/tv_login_bg"
+        android:gravity="center"
+        android:text="@string/denglv"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_30"
+        android:layout_marginRight="@dimen/dip_30"
+        android:orientation="horizontal"
+        android:padding="@dimen/dip_10">
+
+        <TextView
+            android:id="@+id/myTextRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/dip_5"
+            android:drawableLeft="@drawable/home_radio"
+            android:text="Saya telah membaca dan   setuju"
+            android:textColor="#9DA4B7"
+            android:textSize="@dimen/fond_10sp" />
+
+        <TextView
+            android:id="@+id/userXieyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《Kebijakan Privasi》"
+            android:textColor="@color/title"
+            android:textSize="@dimen/fond_10sp" />
+    </LinearLayout>
+</LinearLayout>
+
